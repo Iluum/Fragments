@@ -1,0 +1,38 @@
+#selectortopright {
+    background-color: rgb(133, 255, 255);
+    font-size: larger;
+}
+
+.selectortopright {
+    background-color: lightblue;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.selectortoprightdiv {
+    display: flex;
+    justify-content: right;
+    gap: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures it spans the full width */
+    background-color: aqua;
+    
+}
+
+.descriptions {
+    margin-top: 0%;
+}
+
+.headings2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description1, .description2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
