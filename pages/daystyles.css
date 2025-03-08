@@ -1,0 +1,46 @@
+.imgsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.selectortoprightdiv {
+    display: flex;
+    justify-content: right;
+    gap: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures it spans the full width */
+    background-color: aqua;
+    
+}
+
+#selectortopright {
+    background-color: rgb(133, 255, 255);
+    font-size: larger;
+}
+
+.selectortopright {
+    background-color: lightblue;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.selected {
+    background-color: rgb(125, 151, 160);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.imagetextnext {
+    margin-left: 3%;
+    font-size: 150%;
+}
+
