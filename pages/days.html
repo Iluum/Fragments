@@ -4,19 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="daystyles.css">
-        <title>Document</title>
+        <title>Dev Log</title>
     </head>
     <body>
 
         <div class="selectortoprightdiv desktop">
-            <a id="selectortopright" class="selectortopright" style="text-decoration: none;" href="../index.html">Home</a>
-            <a id="selected" class="selected" style="text-decoration: none;" href="days.html">Days</a>
-            <a id="selectortopright" class="selectortopright" style="text-decoration: none;" href="pages/days.html">link3</a>
+            <a id="selectortopright" class="selectortopright" style="text-decoration: none;" href="../index.html"><b>Home</b></a>
+            <a id="selected" class="selected" style="text-decoration: none;" href="days.html"><b>Dev Log</b></a>
+            <a id="selectortopright" class="selectortopright" style="text-decoration: none;" href="contactinfo.html"><b>Contact Info</b></a>
         </div>
 
         <div style="margin-top: 5%;" class="days">
 
-            <h1><b>Day 1 07/03/2025</b></h1>
+            <h1><b>Day 1 07/03/2025</b> - Summoning Area + Basic Character Selection Layout</h1>
             <div class="imgsection">
                 <img width="25%" height="25%" class="image" src="../images/07032025/CharacterSelection.png" alt="CharacterSelection">
                 <p class="imagetextnext">This is the prototype of the <b>character selection menu</b>, will be a glass pane that you select through using the arrow keys on your keyboard.</p>
@@ -28,27 +28,41 @@
 
             
 
-            <h1 style="margin-top: 10%;"><b>Day 2 08/03/2025</b></h1>
+            <h1 style="margin-top: 10%;"><b>Day 2 08/03/2025</b> - Basic Menu Navigation + Interaction</h1>
             <div class="imgsection">
-                <video width="25%" height="25%" src="../videos/08032025/CharacterSelection.mp4" autoplay loop muted></video>
+                <video class="allvideos" width="25%" height="25%" src="../videos/08032025/CharacterSelection.mp4" autoplay loop muted></video>
                 <p class="imagetextnext">This day, function was added to the menu, in terms of animation, and selecting. Theres no datasaves or anything to actually "select" the character yet, however the actual animation element and feel element works well.</p>
             </div>
 
-            <div class="imgsection">
-                <video width="25%" height="25%" src="../videos/08032025/CustomizationMenu.mp4" autoplay loop muted></video>
+            <div class="imgsection" style="margin-top: 1%;">
+                <video class="allvideos" width="25%" height="25%" src="../videos/08032025/CustomizationMenu.mp4" autoplay loop muted></video>
                 <p class="imagetextnext">Along with that, a slider and a basic gui for how the <b>Customization Menu</b> will look was made. <br>It also displays the value its on, and has a "MaxValue" variable in the script so the slider can go from 1-Infinity depending on what the max is set to. <br>This was made so it fits every customization option regardless of the amount of different options for each.</p>
             </div>
 
 
-            <h1 style="margin-top: 10%;"><b>Day 3 09/03/2025</b></h1>
+
+            <h1 style="margin-top: 10%;"><b>Day 3 09/03/2025</b> - Datastores displaying on character selection menu + enter key detection</h1>
             <div class="imgsection">
-                <video width="25%" height="25%" src="../videos/09032025/LevelsNames.mp4" autoplay loop muted></video>
+                <video class="allvideos" width="25%" height="25%" src="../videos/09032025/LevelsNames.mp4" autoplay loop muted></video>
                 <p class="imagetextnext">This day, datastores were worked on, now it is possible to <b>save different slots</b>, and display them on the character selection menu.</p>
             </div>
-            <div class="imgsection">
-                <video width="25%" height="25%" src="../videos/09032025/ConfirmationToCustomization.mp4" autoplay loop muted></video>
+            <div class="imgsection" style="margin-top: 1%;">
+                <video class="allvideos" width="25%" height="25%" src="../videos/09032025/ConfirmationToCustomization.mp4" autoplay loop muted></video>
                 <p class="imagetextnext">Along with that, a confirm button was made, this means that there is now a way to <b>detect when a player pressed enter</b>. <br>This is represented for now as the camera moving to a different display, later this will display either "create new slot" if there is no data in it, or will bring you into the game if there is data on it.</p>
             </div>
+
+
+
+            <h1 style="margin-top: 10%;"><b>Day 4 10/03/2025</b> - Hair and Secondary Hair Selection and Display + Customization Settings Stored in Dataservice</h1>
+            <div class="imgsection">
+                <video class="allvideos" width="25%" height="25%" src="../videos/10032025/HairAndSecondaryHairWorking.mp4" autoplay loop muted></video>
+                <p class="imagetextnext">Hair and Secondary hair is now able to be <b>selected and displayed</b> on the customization rig!</p>
+            </div>
+            <div class="imgsection" style="margin-top: 1%;">
+                <video class="allvideos" width="25%" height="25%" src="../videos/10032025/AppearanceSaveData.mp4" autoplay loop muted></video>
+                <p class="imagetextnext">Aswell, the <b>customization settings are now able to be saved to the players character slots!</b> This means that now once the customization is set up and working, it will be simple to copy over the customization to the main game!</p>
+            </div>
+
         </div>
     </body>
     </html>
